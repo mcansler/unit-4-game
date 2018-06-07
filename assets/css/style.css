@@ -1,0 +1,145 @@
+.container {
+	
+	background-image: url(../images/MarvelBG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 850px;
+	
+}
+
+.header {
+	
+	float: right;
+}
+
+h1 {
+	
+	color: white;
+	margin: 10px 50px;
+	
+}
+
+h2, h4 {
+	
+	color: white;
+}
+
+p{
+	
+	color: white;
+	font-size: 25px;
+}
+
+.selChar {
+	
+	height: 150px;
+}
+
+.character {
+	
+	position: relative;
+  	float: left;
+  	width: 150px;
+	height: 125px;
+  	margin: 0 auto;
+  	overflow: auto;
+	border: 2px solid green;
+	background: white;
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+
+
+/*
+#spiderman, #capAmerica, #ironMan, #thor {
+	
+	position: relative;
+  	float: left;
+  	width: 150px;
+	height: 125px;
+  	margin: 0 auto;
+  	overflow: auto;
+	border: 2px solid green;
+	background: white;
+	text-align: center;
+
+	
+}
+*/
+
+/*
+img {
+ 	padding-top: 20px;
+	width: 125px;
+	height: 100px;
+  	border: 0 none;
+  	
+}
+*/
+
+.character-image {
+	
+	padding-top: 20px;
+	width: 125px;
+	height: 100px;
+  	border: 0 none;
+	
+}
+
+.character-name {
+  	position: absolute;
+  	top: -5px;
+  	width: 100%;
+  	padding: 15px;
+  	margin-bottom: 0;
+  	font-size: 15px;
+  	line-height: 0px;
+  	text-align: center;
+  	border-bottom: 0;
+}
+
+.character-health {
+  	position: absolute;
+	bottom: 10px;
+  	width: 100%;
+  	margin-bottom: 0;
+  	font-size: 15px;
+  	line-height: 0px;
+  	text-align: center;
+  	border-bottom: 0;
+}
+
+.clear {
+   clear:both;
+}
+
+#gameMessage {
+ 
+	font-size: 20px;
+  	color: white;
+	background: #A7A7A7;
+}
+
+.btn {
+	background: grey;
+	color: black;
+	margin: 5px 0;
+}
+
+.enemy {
+	position: relative;
+	width: 150px;
+	margin: 0 auto;
+  	border: 2px solid black;
+  	cursor: pointer;
+   	background-color: red;
+  	float: left;
+	color: black;
+}
+
+.target-enemy {
+  background-color: black;
+  color: white;
+}
