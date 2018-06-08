@@ -139,7 +139,7 @@ img {
 	color: black;
 }
 
-.target-enemy {
+.activeDefender {
   background-color: black;
   color: white;
 }
